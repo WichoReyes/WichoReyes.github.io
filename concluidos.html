@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página web</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <!-- Header -->
+  <div class="header">
+    <nav class="navbar">
+      <ul class="nav-links">
+        <li><a href="index.html">INICIO</a></li>
+
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle">CONÓCENOS ▾</a>
+          <ul class="dropdown-menu">
+            <li><a href="mision.html">Misión, Visión</a></li>
+            <li><a href="profesores.html">Profesores, Investigadores</a></li>
+            <li><a href="estudiantes.html">Estudiantes, Egresados</a></li>
+          </ul>
+        </li>
+        
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle">OFERTA EDUCATIVA ▾</a>
+          <ul class="dropdown-menu">
+            <li><a href="lincenciatura.html">Licenciatura</a></li>
+            <li><a href="maestria.html">Maestría, Doctorado</a></li>
+          </ul>
+        </li>
+
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle">PROYECTOS ▾</a>
+          <ul class="dropdown-menu">
+            <li><a href="concluidos.html">Concluidos</a></li>
+            <li><a href="modelo.html">Modelo De Trabajo</a></li>
+          </ul>
+        </li>
+
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle">VINCULACIÓN ▾</a>
+          <ul class="dropdown-menu">
+            <li><a href="convenios.html">Convenios</a></li>
+            <li><a href="partners.html">Partners|Empresas|Oportunidades</a></li>
+          </ul>
+        </li>
+
+        <li><a href="ubicacion.html">UBICACIÓN</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <!-- Main Body -->
+  <div class="body">
+    <div class="title-proy">
+        <h2>Proyectos concluidos</h2>
+    </div>
+
+    <div class="years-buttons">
+        <button onclick="filterCards('all')">Todos</button>
+        <button onclick="filterCards('2016')">2016</button>
+        <button onclick="filterCards('2015')">2015</button>
+        <button onclick="filterCards('2014')">2014</button>
+        <button onclick="filterCards('2013')">2013</button>
+        <button onclick="filterCards('2012')">2012</button>
+        <button onclick="filterCards('2011')">2011</button>
+        <button onclick="filterCards('2010')">2010</button>
+    </div>
+
+    <div class="cards-proye">
+        <div class="card-proy" data-year="2016">
+            <iframe src="https://www.youtube.com/embed/VIDEO_ID" allowfullscreen></iframe>
+            <h3>2016</h3>
+            <p>Sistema de Big Data y Cloud Computing para medición y prevención de índice delictivo</p>
+            <p class="autores">M en C. Roberto Zagal; M en C. Edgar Catalan</p>
+            <ul>
+                <li class="etiqueta">Proyecto Multidisciplinario</li>
+            </ul>
+        </div>
+        
+        <div class="card-proy" data-year="2015">
+            <iframe src="https://www.youtube.com/embed/VIDEO_ID" allowfullscreen></iframe>
+            <h3>2015</h3>
+            <p>Sistema Semántico de Interfaz Humana y Realidad Aumentada para el Seguimiento y Control del Tratamiento de la Obesidad en
+                México para Web y Móviles
+            </p>
+            <p><strong>Financiado por el IPN, Clave: 20140514</strong></p>
+            <p class="autores">M en C. Bella Citlali Martínez Seis; M en C. Blanca Alicia Rico Jiménez;Dr. Mario Eduardo Rivero Ángeles;
+                 M en C. Álvaro Anzueto Ríos</p>
+            <ul>
+                <li class="etiqueta">Proyecto SIP-IPN</li>
+            </ul>
+        </div>
+        
+        <div class="card-proy" data-year="2014">
+            <iframe src="https://www.youtube.com/embed/VIDEO_ID" allowfullscreen></iframe>
+            <h3>2014</h3>
+            <p>Sistema para la Evaluación de la Seguridad Ciudadana</p>
+            <p class="autores">M en C. Roberto Zagal, M en C. Edgar Catalan</p>
+            <ul>
+                <li class="etiqueta">Proyecto SIP-IPN</li>
+            </ul>
+        </div>
+
+        <div class="card-proy" data-year="2013">
+            <iframe src="https://www.youtube.com/embed/VIDEO_ID" allowfullscreen></iframe>
+            <h3>2013</h3>
+            <p><strong>Proyecto de Investigación:</strong> Sistema de Información Geográfica Ambiental para el Manejo Integral
+            de Residuos Sólidos Urbanos en Municipios de México.</p>
+            <p><strong>Clave SIP-IPN: 20113429</strong></p>
+            <p class="autores">Dr. Mario Rivero Angeles; M en C. Noe Sierra Romero; Dr. Miguel J. Torres Ruiz; 
+                Dr. Marco Antonio Moreno Ibarra;Dra. Consuelo Varinia, M en C. Diana Gabriela Castro Frontana,
+                 M en C. Omar Gambino, M en C. Roberto Zagal; Dr. Rolando Quintero; Dr. J. Giovanni Guzman</p>
+            <p class="autores">ALUMNOS: Piña Arellano Ricardo, Ivan Peña, Joel Centeno, Jesus Guillermo Falcon</p>
+            <ul>
+                <li class="etiqueta">Proyecto Multidisciplinario</li>
+            </ul>
+        </div>
+
+        <div class="card-proy" data-year="2012">
+            <iframe src="https://www.youtube.com/embed/VIDEO_ID" allowfullscreen></iframe>
+            <h3>2012</h3>
+            <p><strong>Desarrollo Tecnológico:</strong> Sistema de Navegación Aumentada con Identificación de Sitios
+            Geográficos para Teléfonos Celulares</p>
+            <p><strong>Financiado por el ICyTDF, PICCO11-28</strong></p>
+            <p class="autores">Dr. Mario Rivero Angeles; M en C. Noe Sierra Romero; Dr. Miguel J. Torres Ruiz; Dr. Marco Antonio Moreno Ibarra;
+                 Dr. J. Giovanni Guzman; Javier Maldonado Romo (Tesista) , Jose Luis Enriquez, Victor del Razo, Abraham, Catalina Mosso</p>
+            <ul>
+                <li class="etiqueta">Proyecto Vinculado</li>
+            </ul>
+        </div>
+
+        <div class="card-proy" data-year="2011">
+            <iframe src="https://www.youtube.com/embed/VIDEO_ID" allowfullscreen></iframe>
+            <h3>2011</h3>
+            <p><strong>Desarrollo Tecnológico:</strong> Administración y Difusión del Turismo en el D.F., Orientada a Usuarios Web
+            y Móviles usando SIG</p>
+            <p class="autores">Dr. Marco Moreno Ibarra (CIC-IPN) 
+                M en C. Noe Sierra Romero (UPIITA-IPN) 
+                M en C. Sergio Velazquez Sereno (UPIITA-IPN)</p>
+           <p class="autores">Alumnos: Juan Castañeda;Enrique Bustos</p> 
+           <ul>
+               <li class="etiqueta">Turismo electrónico</li>
+           </ul>
+        </div>
+
+        <div class="card-proy" data-year="2011">
+            <iframe src="https://www.youtube.com/embed/VIDEO_ID" allowfullscreen></iframe>
+            <h3>2011</h3>
+            <p><strong>Desarrollo Tecnológico:</strong> Administración y Difusión del Turismo en el D.F., Orientada a Usuarios Web
+            y Móviles usando SIG</p>
+            <p class="autores">Dr. Marco Moreno Ibarra (CIC-IPN) 
+                M en C. Noe Sierra Romero (UPIITA-IPN) 
+                M en C. Sergio Velazquez Sereno (UPIITA-IPN)</p>
+           <p class="autores">Alumnos: Juan Castañeda;Enrique Bustos</p> 
+           <ul>
+               <li class="etiqueta">Turismo electrónico</li>
+           </ul>
+        </div>
+
+        <div class="card-proy" data-year="2010">
+            <iframe src="https://www.youtube.com/embed/VIDEO_ID" allowfullscreen></iframe>
+            <h3>2010</h3>
+            <p><strong>Desarrollo Tecnológico:</strong> Web Semántica</p>
+            <p class="autores">Dr. Marco Moreno Ibarra (CIC-IPN) 
+                Dr. Miguel Torres</p> 
+           <ul>
+               <li class="etiqueta">Semantic Web</li>
+           </ul>
+        </div>
+
+    </div>
+
+    <div class="title-proy">
+        <h2>Proyectos Terminales Concluidos</h2>
+    </div>
+
+    <div class="cards-proye">
+        <div class="card-proy" data-year="2016">
+            <iframe src="https://www.youtube.com/embed/VIDEO_ID" allowfullscreen></iframe>
+            <h3>2016</h3>
+            <p>Smart Fridge</p>
+            <p class="autores">Ximena Moreno, Fabian Almanza</p>
+            <p>Una App que notifica acerca de la cantidad de contenido de los productos que hay el refrigerador 
+                (leche, yogurt, etc) y cuando esta por terminarse un producto, permite pedirlo al super mercado</p>
+            <ul>
+                <li class="etiqueta">Connected Home</li>
+                <li class="etiqueta">Internet of Things</li>
+            </ul>
+        </div>
+        
+        <div class="card-proy" data-year="2016">
+            <iframe src="https://www.youtube.com/embed/VIDEO_ID" allowfullscreen></iframe>
+            <h3>2016</h3>
+            <p>Sistema Crowdsourcing para toma de decisiones ( usando Big Data y machine learning)
+            </p>
+            <p class="autores">Bruno Ramirez, Jorge Garcia</p>
+            <p>Un sistema que recolecta informacion de redes sociales y detecta tendencias en ciertos temas</p>
+            <ul>
+                <li class="etiqueta">Crowdsourcing, trends topics</li>
+                <li class="etiqueta">Make decision</li>
+            </ul>
+        </div>
+        
+        <div class="card-proy" data-year="2016">
+            <iframe src="https://www.youtube.com/embed/VIDEO_ID" allowfullscreen></iframe>
+            <h3>2016</h3>
+            <p>SIG para RSU evaluacion de generacion de Biogas</p>
+            <p class="autores">Cinthia Ambriz, Narvik Sanchez</p>
+            <p>El sistema evalua la ubicacion idonea para un SDF, asi como la produccion de BioGas del mismo.</p>
+            <ul>
+                <li class="etiqueta">RSU, Semantica, BioGas</li>
+                <li class="etiqueta">Etiquetas</li>
+            </ul>
+        </div>
+
+        <div class="card-proy" data-year="2016">
+            <iframe src="https://www.youtube.com/embed/VIDEO_ID" allowfullscreen></iframe>
+            <h3>2016</h3>
+            <p>Sistema que mide ocupabilidad de transporte publico y monitorea rutas usando sensores y una app</p>
+            <p class="autores">Daniel Sarabia, Sergio Garcia</p>
+            <p>Un sistema movil que permite saber cuantos lugares disponibles tiene un transporte publico, usando sensores, 
+                redes y una app que permitie al usuario concoer estos datos previamente</p>
+            <ul>
+                <li class="etiqueta">Routes, sensors</li>
+                <li class="etiqueta">Rutas de transporte público</li>
+            </ul>
+        </div>
+
+        <div class="card-proy" data-year="2016">
+            <iframe src="https://www.youtube.com/embed/VIDEO_ID" allowfullscreen></iframe>
+            <h3>2016</h3>
+            <p>Sistema para asistir en entrenamiento y alimentacion a corredores fondistas</p>
+            <p class="autores">Angeles Meza, Paulina Hernandez</p>
+            <p>Un sistema semantico que permite lleva run seguimiento de como entrenarse basado en un perfil, asi 
+                como recomendaciones de alimentación</p>
+            <ul>
+                <li class="etiqueta">Runners, Ontology</li>
+                <li class="etiqueta">Semantic</li>
+            </ul>
+        </div>
+
+        <div class="card-proy" data-year="2016">
+            <iframe src="https://www.youtube.com/embed/VIDEO_ID" allowfullscreen></iframe>
+            <h3>2016</h3>
+            <p>Sistema para deteccion de Matriculas de automoviles</p>
+            <p class="autores">Jonathan Ugalde, Dulce Guerrero</p>
+            <p>Un sistema de reconocimiento de patrones para detectar adeudos de multas en automoviles 
+                que estan circulando en las avenidas de la ciudad de méxico</p>
+        <ul>
+            <li class="etiqueta">Pattern recognition</li>
+            <li class="etiqueta">Redes neuronales</li>
+        </ul>
+        </div>
+    </div>
+
+    <section class="logos-container">
+      <img src="src/ipn.png" alt="Imagen 1">
+      <img src="src/upiita.png" alt="Imagen 2">
+      <img src="src/telematica.png" alt="Imagen 3">
+    </section>
+</div>
+
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="footer-column">
+        <h4>Acerca de GEODATAX</h4>
+        <ul>
+          <li><a href="#">Misión</a></li>
+          <li><a href="#">Visión</a></li>
+          <li><a href="#">Objetivo</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h4>Redes sociales</h4>
+        <ul>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Youtube</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h4>Privacidad</h4>
+        <ul>
+          <li><a href="#">Política de privacidad</a></li>
+          <li><a href="#">Cookies y anuncios basados en intereses</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h4>Documentos y Política</h4>
+        <ul>
+          <li><a href="#">Precauciones de salud y seguridad</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© Laboratorio de Inteligencia Geoespacial y Cómputo Móvil SEPI-UPIITA, 2019. Todos los derechos reservados.</p>
+      <p>UPIITA - IPN Academia de Telemática</p>
+      <div class="footer-links">
+        <a href="#">Contáctanos</a>
+        <a href="#">Condiciones de Uso</a>
+        <a href="#"><img src="flag-icon.png" alt="Español (México)"> Español (México)</a>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
