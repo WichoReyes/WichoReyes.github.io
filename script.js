@@ -92,3 +92,13 @@ function filterConvenios(data) {
       }
   });
 }
+
+document.addEventListener("DOMContentLoaded", function() {
+  const hamburger = document.getElementById("menu-icon");
+  const navLinks = document.getElementById("nav-links");
+
+  // Toggle del menú de navegación en dispositivos pequeños
+  hamburger.addEventListener("click", function() {
+      navLinks.classList.toggle("show");
+  });
+});
