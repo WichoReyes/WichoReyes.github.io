@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página web</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<header>
+  <!-- Header -->
+  <div class="header">
+    <nav class="navbar">
+      <button class="menu-icon" id="menu-icon">☰</button>
+      <h1>GEODATAX</h1>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">INICIO</a></li>
+
+        <li class="dropdown">
+          <a href="#" class="dropbtn">CONÓCENOS ▾</a>
+          <ul class="dropdown-menu">
+            <li><a href="mision.html">Misión, Visión</a></li>
+            <li><a href="profesores.html">Profesores, Investigadores</a></li>
+            <li><a href="estudiantes.html">Estudiantes, Egresados</a></li>
+          </ul>
+        </li>
+        
+        <li class="dropdown">
+          <a href="#" class="dropbtn">OFERTA EDUCATIVA ▾</a>
+          <ul class="dropdown-menu">
+            <li><a href="lincenciatura.html">Licenciatura</a></li>
+            <li><a href="maestria.html">Maestría, Doctorado</a></li>
+          </ul>
+        </li>
+
+        <li class="dropdown">
+          <a href="#" class="dropbtn">PROYECTOS ▾</a>
+          <ul class="dropdown-menu">
+            <li><a href="concluidos.html">Concluidos</a></li>
+            <li><a href="modelo.html">Modelo De Trabajo</a></li>
+          </ul>
+        </li>
+
+        <li class="dropdown">
+          <a href="#" class="dropbtn">VINCULACIÓN ▾</a>
+          <ul class="dropdown-menu">
+            <li><a href="convenios.html">Convenios</a></li>
+            <li><a href="partners.html">Partners|Empresas|Oportunidades</a></li>
+          </ul>
+        </li>
+
+        <li><a href="ubicacion.html">UBICACIÓN</a></li>
+      </ul>
+    </nav>
+</header>
+<body>
+  <!-- Main Body -->
+  <div class="body">
+    <div class="title-proy">
+        <h2>Convenios</h2>
+        <p>Empresas e instituciones asociadas con el Laboratorio</p>
+    </div>
+
+    <div class="convenio-buttons">
+        <button onclick="filterConvenios('all')">Todos los convenios</button>
+        <button onclick="filterConvenios('educativas')">Instituciones educativas</button>
+        <button onclick="filterConvenios('empresas')">Empresas</button>
+    </div>
+
+    <div class="cards-convenio">
+        <div class="card-convenio" data-spec="empresas">
+            <img src="src/cisco.png" alt="Imagen 1">
+            <h3>Cisco Networking Academy</h3>
+        </div>
+
+        <div class="card-convenio" data-spec="empresas">
+            <img src="src/oracle.png" alt="Imagen 2">
+            <h3>ORACLE Academy</h3>
+        </div>
+
+        <div class="card-convenio" data-spec="educativas">
+            <img src="src/france.png" alt="Imagen 3">
+            <h3>Université de Rennes - France</h3>
+        </div>
+
+        <div class="card-convenio" data-spec="educativas">
+            <img src="src/mayor.png" alt="Imagen 4">
+            <h3>Universidad Mayor - Chile</h3>
+        </div>
+
+        <div class="card-convenio" data-spec="educativas">
+            <img src="src/cic.png" alt="Imagen 5">
+            <h3>Centro de Investigación en Cómputo - IPN</h3>
+        </div>
+
+        <div class="card-convenio" data-spec="educativas">
+            <img src="src/cinve.png" alt="Imagen 6">
+            <h3>Centro de Investigación y de Estudios Avanzados - IPN</h3>
+        </div>
+
+        <div class="card-convenio" data-spec="educativas">
+            <img src="src/escom.png" alt="Imagen 7">
+            <h3>Escuela Superior de Cómputo - IPN</h3>
+        </div>      
+    </div>
+
+    <section class="logos-container">
+      <img src="src/ipn.png" alt="Imagen 1">
+      <img src="src/upiita.png" alt="Imagen 2">
+      <img src="src/telematica.png" alt="Imagen 3">
+    </section>
+  </div>
+
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="footer-column">
+        <h4>Acerca de GEODATAX</h4>
+        <ul>
+          <li><a href="#">Misión</a></li>
+          <li><a href="#">Visión</a></li>
+          <li><a href="#">Objetivo</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h4>Redes sociales</h4>
+        <ul>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Youtube</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h4>Privacidad</h4>
+        <ul>
+          <li><a href="#">Política de privacidad</a></li>
+          <li><a href="#">Cookies y anuncios basados en intereses</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h4>Documentos y Política</h4>
+        <ul>
+          <li><a href="#">Precauciones de salud y seguridad</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© Laboratorio de Inteligencia Geoespacial y Cómputo Móvil SEPI-UPIITA, 2019. Todos los derechos reservados.</p>
+      <p>UPIITA - IPN Academia de Telemática</p>
+      <div class="footer-links">
+        <a href="#">Contáctanos</a>
+        <a href="#">Condiciones de Uso</a>
+        <a href="#"><img src="flag-icon.png" alt="Español (México)"> Español (México)</a>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
