@@ -1,0 +1,40 @@
+body{
+    color: #333333;
+}
+
+.btn-primary{
+    background-color: #800000; 
+    border-color: #800000; 
+    color: #ffffff;
+}
+
+h1,h2,h3,h4,h5{
+    color: #800000;
+}
+
+.navbar .navbar-nav .nav-link{
+    color: #800000;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    background-color: #800000;
+    border: 15px solid #800000;
+}
+
+
+.bg-primary {
+    background-color: #a10101 !important;
+}
+
+.bg-secondary{
+    background-color: #db0202 !important;
+}
+
+.bg-dark{
+    background-color: #800000 !important;
+}
+
+.page-header{
+    background: linear-gradient(rgba(3, 27, 78, .3), rgba(3, 27, 78, .3)), url(../img/exterior\ laba\ geodatax.jpg) center center no-repeat;
+    background-size: cover;
+}
