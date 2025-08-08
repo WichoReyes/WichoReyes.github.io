@@ -3,35 +3,35 @@ body{
 }
 
 .btn-primary{
-    background-color: #800000; 
-    border-color: #800000; 
+    background-color: #3368C6; 
+    border-color: #3368C6; 
     color: #ffffff;
 }
 
 h1,h2,h3,h4,h5{
-    color: #800000;
+    color: #3368C6;
 }
 
 .navbar .navbar-nav .nav-link{
-    color: #800000;
+    color: #3368C6;
 }
 
 .carousel-control-prev-icon, .carousel-control-next-icon{
-    background-color: #800000;
-    border: 15px solid #800000;
+    background-color: #3368C6;
+    border: 15px solid #3368C6;
 }
 
 
 .bg-primary {
-    background-color: #a10101 !important;
+    background-color: #3368C6 !important;
 }
 
 .bg-secondary{
-    background-color: #db0202 !important;
+    background-color: #3368C6 !important;
 }
 
 .bg-dark{
-    background-color: #800000 !important;
+    background-color: #3368C6 !important;
 }
 
 .page-header{
